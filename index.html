@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>RØDE Microphones</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: '400px',
+                    md: '700px',
+                    lg: '1000px',
+                    xl: '1200px'
+                },
+                fontWeight: {
+                    "normal": 500,
+                    "bold": 700,
+                    "extra-bold": 800,
+                },
+                extend: {
+                    colors: {
+                        grey: '#767676',
+                        section_1: '#ad9970',
+                        section_a1: '#383838',
+                    },
+                    backgroundImage: {
+                        section_bg1: "url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')",
+                        section_bg2: "url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')",
+                        section_bg3: "url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="p-0 m-0 outline-none">
+    <!-- NavBar -->
+    <header>
+        <div class="hidden lg:block lg:flex lg:flex-row lg:justify-between lg:items-center lg:clearfix lg:mx-36">
+            <div class="flex flex-row items-center">
+                <a href="#"><img src="./images/header_Img-1.png" alt=""></a>
+                <select name="lang">
+                    <option value="EN">EN</option>
+                    <option value="FR">FR</option>
+                    <option value="JA">JA</option>
+                </select>
+            </div>
+            <div class="right-0"><a href="#"><img  src="./images/header_Img-2.png" alt=""></a></div>
+        </div>
+        <hr class="m-1 hidden lg:block">
+        <!-- Nav Mobile -->
+        <div class="flex flex-row justify-between items-center m-2 lg:justify-around">
+            <div class="flex flex-row items-center lg:space-x-5 lg:hidden">
+                <div class="mr-1">
+                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
+                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
+                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
+                </div>
+                <div class="flex flex-row justify-between items-center lg:hidden">
+                    <a href="#"><img src="./images/header_Img-1.png" alt=""></a>
+                    <select name="lang">
+                        <option value="EN">EN</option>
+                        <option value="FR">FR</option>
+                        <option value="JA">JA</option>
+                    </select>
+                </div>
+            </div>
+                <a class="order-1 lg:float-left" href="#"><img src="./images/Rode_Logo.png" alt=""></a>
+                <div class="hidden font-normal lg:block lg:space-x-10 lg:uppercase lg:text-sm order-2">
+                    <a href="#">Products</a>
+                    <a href="#">User Guides</a>
+                    <a href="#">Solutions</a>
+                    <a href="#">Apparel</a>
+                    <a href="#">Support</a>
+                </div>
+            <a class="order-3" href="#"><img src="./images//header_Img-3.png" alt=""></a>
+        </div>
+    </header>
+</body>
+
+</html>
