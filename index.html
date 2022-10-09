@@ -28,11 +28,11 @@
                         section_1: '#ad9970',
                         section_a1: '#383838',
                     },
-                    backgroundImage: {
-                        section_bg1: "url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')",
-                        section_bg2: "url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')",
-                        section_bg3: "url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg')",
-                    }
+                    // backgroundImage: {
+                    //     section_bg1: "url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')",
+                    //     section_bg2: "url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')",
+                    //     section_bg3: "url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg')",
+                    // }
                 }
             }
         }
@@ -85,42 +85,52 @@
     <!-- Main -->
     <main>
         <!-- Section_A -->
-        <section class="bg-black py-3">
-            <img src="./images/sectionA_1.jpg" alt="">
-            <div class="flex flex-col justify-center items-center">
-                <img class="m-3" src="./images/sectionA_2.svg" alt="">
-                <h4 class="text-white text-2xl m-3 font-normal text-center">The Revolution Is Here</h4>
-                <p class="text-white text-base m-3">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
-            </div>
-            <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
-                <a class="px-5 py-1 text-section_1 text-white flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
-                <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
-            </div>
+        <section class="bg-black py-3 lg:flex lg:flex-row lg:justify-end lg:relative ">
+                <img class="lg:hidden" src="./images/sectionA_1.jpg" alt="">
+                <img class="hidden lg:block mr-20 w-screen h-screen bg-center" src="./images/bg1_New.png" alt="">
+                <div class="lg:absolute lg:inset-y-0 lg:right-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
+                    <div class="flex flex-col justify-center items-center ">
+                        <img class="m-3" src="./images/sectionA_2.svg" alt="">
+                        <h4 class="text-white text-2xl m-3 font-normal text-center">The Revolution Is Here</h4>
+                        <p class="text-white text-base m-3">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
+                    </div>
+                    <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
+                        <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
+                        <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>            
         </section>
         <!-- Section_B -->
-        <section class="">
-            <img src="./images/sectionB_1.png" alt="">
-            <div class="flex flex-col justify-center items-center">
-                <img class="m-3" src="./images/sectionB_2.svg" alt="">
-                <h4 class="text-black text-2xl m-3 font-normal text-center">Your Search For The Perfect Headphones Is Over</h4>
-                <p class="text-black text-base m-3">Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
-            </div>
-            <div class="flex flex-row justify-center uppercase font-normal items-center text-sm py-3">
-                <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
-                <a class="px-5 py-1 bg-section_1 rounded-full" href="#">Buy Now</a>
+        <section class="lg:flex lg:flex-row lg:justify-end lg:relative">
+            <img class="lg:hidden" src="./images/sectionB_1.png" alt="">
+            <img class="hidden lg:block w-screen h-screen" src="./images/bg2_New.png" alt="">
+            <div class="lg:absolute lg:inset-y-0 lg:left-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
+                <div class="flex flex-col justify-center items-center">
+                    <img class="m-3" src="./images/sectionB_2.svg" alt="">
+                    <h4 class="text-black text-2xl m-3 font-normal text-center">Your Search For The Perfect Headphones Is Over</h4>
+                    <p class="text-black text-base m-3">Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
+                </div>
+                <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
+                    <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
+                    <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
+                </div>
             </div>
         </section>
         <!-- Section_C -->
-        <section class="py-3">
-            <img src="./images/sectionC_1.jpg" alt="">
-            <div class="flex flex-col justify-center items-center">
-                <img class="m-3" src="./images/sectionC_2.svg" alt="">
-                <h4 class="text-black text-2xl m-3 font-normal text-center">Studio-Quality Recording, Made Simple</h4>
-                <p class="text-black text-base m-3">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
-            </div>
-            <div class="flex flex-row justify-center uppercase font-bold items-center text-base py-3">
-                <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
-                <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
+        <section class="lg:flex lg:flex-row lg:justify-end lg:relative">
+            <img class="lg:hidden" src="./images/sectionC_1.jpg" alt="">
+            <img class="hidden lg:block w-screen h-screen" src="./images/section_bg3.jpg" alt="">
+            <div class="lg:absolute lg:inset-y-0 lg:right-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
+                <div class="flex flex-col justify-center items-center">
+                    <img class="m-3" src="./images/sectionC_2.svg" alt="">
+                    <h4 class="text-black text-2xl m-3 font-normal text-center">Studio-Quality Recording, Made Simple</h4>
+                    <p class="text-black text-base m-3">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
+                </div>
+                <div class="flex flex-row justify-center uppercase font-bold items-center text-base py-3 text-lg">
+                    <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
+                    <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
+                </div>
             </div>
         </section>
         <!-- Sectioon_D-Section_G -->
