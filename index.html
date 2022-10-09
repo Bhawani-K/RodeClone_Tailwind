@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,25 +19,16 @@
                 fontWeight: {
                     "normal": 500,
                     "bold": 700,
-                    "extra-bold": 800,
                 },
                 extend: {
                     colors: {
-                        grey: '#767676',
                         section_1: '#ad9970',
-                        section_a1: '#383838',
                     },
-                    // backgroundImage: {
-                    //     section_bg1: "url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')",
-                    //     section_bg2: "url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')",
-                    //     section_bg3: "url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg')",
-                    // }
                 }
             }
         }
     </script>
 </head>
-
 <body class="p-0 m-0 outline-none">
     <!-- NavBar -->
     <header>
@@ -47,38 +37,30 @@
                 <a href="#"><img src="./images/header_Img-1.png" alt=""></a>
                 <select name="lang">
                     <option value="EN">EN</option>
-                    <option value="FR">FR</option>
-                    <option value="JA">JA</option>
                 </select>
             </div>
-            <div class="right-0"><a href="#"><img  src="./images/header_Img-2.png" alt=""></a></div>
+            <div class="right-0"><a href="#"><img src="./images/header_Img-2.png" alt=""></a></div>
         </div>
         <hr class="m-1 hidden lg:block">
         <!-- Nav Mobile -->
         <div class="flex flex-row justify-between items-center m-2 lg:justify-around">
             <div class="flex flex-row items-center md:space-x-5 lg:hidden">
-                <div class="mr-1">
-                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
-                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
-                    <div class="w-4 h-0.5 m-0.5 bg-black"></div>
-                </div>
+                <a class="mr-1" href="#"><i class="gg-menu"></i></a>
                 <div class="flex flex-row justify-between items-center lg:hidden">
                     <a href="#"><img src="./images/header_Img-1.png" alt=""></a>
                     <select name="lang">
                         <option value="EN">EN</option>
-                        <option value="FR">FR</option>
-                        <option value="JA">JA</option>
                     </select>
                 </div>
             </div>
-                <a class="order-1 lg:float-left" href="#"><img src="./images/Rode_Logo.png" alt=""></a>
-                <div class="hidden font-normal lg:block lg:space-x-10 lg:uppercase lg:text-sm order-2">
-                    <a href="#">Products</a>
-                    <a href="#">User Guides</a>
-                    <a href="#">Solutions</a>
-                    <a href="#">Apparel</a>
-                    <a href="#">Support</a>
-                </div>
+            <a class="order-1 lg:float-left" href="#"><img src="./images/Rode_Logo.png" alt=""></a>
+            <div class="hidden font-normal lg:block lg:space-x-10 lg:uppercase lg:text-sm order-2">
+                <a href="#">Products</a>
+                <a href="#">User Guides</a>
+                <a href="#">Solutions</a>
+                <a href="#">Apparel</a>
+                <a href="#">Support</a>
+            </div>
             <a class="order-3" href="#"><img src="./images//header_Img-3.png" alt=""></a>
         </div>
     </header>
@@ -86,20 +68,20 @@
     <main>
         <!-- Section_A -->
         <section class="bg-black py-3 lg:flex lg:flex-row lg:justify-end lg:relative ">
-                <img class="lg:hidden" src="./images/sectionA_1.jpg" alt="">
-                <img class="hidden lg:block mr-20 w-screen h-screen bg-center" src="./images/bg1_New.png" alt="">
-                <div class="lg:absolute lg:inset-y-0 lg:right-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
-                    <div class="flex flex-col justify-center items-center ">
-                        <img class="m-3" src="./images/sectionA_2.svg" alt="">
-                        <h4 class="text-white text-2xl m-3 font-normal text-center">The Revolution Is Here</h4>
-                        <p class="text-white text-base m-3">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
-                    </div>
-                    <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
-                        <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
-                        <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
-                    </div>
+            <img class="lg:hidden" src="./images/sectionA_1.jpg" alt="">
+            <img class="hidden lg:block mr-20 w-screen h-screen bg-center" src="./images/bg1_New.png" alt="">
+            <div class="lg:absolute lg:inset-y-0 lg:right-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
+                <div class="flex flex-col justify-center items-center ">
+                    <img class="m-3" src="./images/sectionA_2.svg" alt="">
+                    <h4 class="text-white text-2xl m-3 font-normal text-center">The Revolution Is Here</h4>
+                    <p class="text-white text-base m-3">The RØDECaster Pro II is the world's most powerful all-in-one
+                        audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
                 </div>
-            </div>            
+                <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
+                    <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
+                    <a class="px-5 py-1 bg-section_1 rounded-full text-white" href="#">Buy Now</a>
+                </div>
+            </div>
         </section>
         <!-- Section_B -->
         <section class="lg:flex lg:flex-row lg:justify-end lg:relative">
@@ -109,7 +91,8 @@
                 <div class="flex flex-col justify-center items-center">
                     <img class="m-3" src="./images/sectionB_2.svg" alt="">
                     <h4 class="text-black text-2xl m-3 font-normal text-center">Your Search For The Perfect Headphones Is Over</h4>
-                    <p class="text-black text-base m-3">Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
+                    <p class="text-black text-base m-3">Experience sound like never before with the NTH-100s.
+                        Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
                 </div>
                 <div class="flex flex-row justify-center uppercase font-normal items-center text-lg">
                     <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
@@ -124,8 +107,10 @@
             <div class="lg:absolute lg:inset-y-0 lg:right-20 lg:w-5/12 flex flex-col justify-center items-center lg:text-center">
                 <div class="flex flex-col justify-center items-center">
                     <img class="m-3" src="./images/sectionC_2.svg" alt="">
-                    <h4 class="text-black text-2xl m-3 font-normal text-center">Studio-Quality Recording, Made Simple</h4>
-                    <p class="text-black text-base m-3">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
+                    <h4 class="text-black text-2xl m-3 font-normal text-center">Studio-Quality Recording, Made Simple </h4>
+                    <p class="text-black text-base m-3">The NT-USB is a studio-quality USB condenser microphone that
+                        offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor,
+                        the NT-USB will have you sounding like a pro in seconds.</p>
                 </div>
                 <div class="flex flex-row justify-center uppercase font-bold items-center text-base py-3 text-lg">
                     <a class="px-5 py-1 text-section_1 flex items-center" href="#">Learn More <i class="gg-chevron-right"></i></a>
@@ -151,7 +136,46 @@
             <img class="w-11/12 mx-auto lg:w-9/12" alt="Qries" src="./images/sectionG_1.png">
             <img class="absolute h-full top-0" src="./images/sectionG_2.svg">
         </a>
+        <!-- Section_H -->
+        <h2 class="text-center text-section_1 font-normal text-3xl">Latest From The RØDE Blog</h2>
+        <section class="w-11/12 text-gray-600 body-font mx-auto">
+            <div class="flex flex-wrap -mx-4 text-center">
+                <div class="sm:w-1/2 px-4">
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-normal min-h-[100px]">XLR vs USB Microphones:Which is <span class="sm:block">Best for You?</span></h2>
+                    <div class="rounded-lg">
+                        <img alt="content" class="object-cover object-center h-full w-full md:h-96" src="./images/sectionH_1.jpg">
+                    </div>
+                    <p class="leading-relaxed text-base p-3">We explore the differences between XLR and USB microphones, the advantages of each and which type is best suited to your needs.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-section_1 border-0 py-2 px-5 hover:bg-transparent rounded-full uppercase">Learn More</button>
+                </div>
+                <div class="sm:w-1/2 px-4">
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-normal min-h-[100px]">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</h2>
+                    <div class="rounded-lg">
+                        <img alt="content" class="object-cover object-center h-full w-full md:h-96" src="./images//sectionH_2.jpg">
+                    </div>
+                    <p class="leading-relaxed text-base p-3">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-section_1 border-0 py-2 px-5 hover:bg-transparent rounded-full uppercase">Learn More</button>
+                </div>
+            </div>
+            <div class="flex flex-wrap -mx-4 text-center">
+                <div class="sm:w-1/2 px-4">
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-normal min-h-[100px]">What is a Condenser Microphone and When to Use One</h2>
+                    <div class="rounded-lg">
+                        <img alt="content" class="object-cover object-center  h-full w-full md:h-96" src="./images/sectionH_3.jpg">
+                    </div>
+                    <p class="leading-relaxed text-base p-3">Learn more about the different types of condenser mics, how they work and the best applications for using them.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-section_1 border-0 py-2 px-5 hover:bg-transparent rounded-full uppercase">Learn More</button>
+                </div>
+                <div class="sm:w-1/2 px-4">
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-normal min-h-[100px]">Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now</h2>
+                    <div class="rounded-lg">
+                        <img alt="content" class="object-cover object-center h-full w-full md:h-96" src="./images//sectionH_4.jpg">
+                    </div>
+                    <p class="leading-relaxed text-base p-3">Firmware version 1.0.7 includes key feature additions, such as custom routing for USB and Bluetooth outputs, and more.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-section_1 border-0 py-2 px-5 hover:bg-transparent rounded-full uppercase">Learn More</button>
+                </div>
+            </div>
+        </section>
     </main>
-</body>
-
+</body>     
 </html>
